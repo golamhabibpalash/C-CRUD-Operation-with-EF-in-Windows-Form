@@ -140,6 +140,7 @@
             this.empIDTBox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.empIDTBox.CustomButton.UseSelectable = true;
             this.empIDTBox.CustomButton.Visible = false;
+            this.empIDTBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.employeeBindingSource, "EmpId", true));
             this.empIDTBox.Lines = new string[0];
             this.empIDTBox.Location = new System.Drawing.Point(234, 7);
             this.empIDTBox.MaxLength = 32767;
@@ -280,6 +281,7 @@
             this.nameTBox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.nameTBox.CustomButton.UseSelectable = true;
             this.nameTBox.CustomButton.Visible = false;
+            this.nameTBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.employeeBindingSource, "Name", true));
             this.nameTBox.Lines = new string[0];
             this.nameTBox.Location = new System.Drawing.Point(234, 36);
             this.nameTBox.MaxLength = 32767;
@@ -319,6 +321,7 @@
             this.emailTBox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.emailTBox.CustomButton.UseSelectable = true;
             this.emailTBox.CustomButton.Visible = false;
+            this.emailTBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.employeeBindingSource, "Email", true));
             this.emailTBox.Lines = new string[0];
             this.emailTBox.Location = new System.Drawing.Point(234, 65);
             this.emailTBox.MaxLength = 32767;
@@ -358,6 +361,7 @@
             this.dobTBox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.dobTBox.CustomButton.UseSelectable = true;
             this.dobTBox.CustomButton.Visible = false;
+            this.dobTBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.employeeBindingSource, "Dob", true));
             this.dobTBox.Lines = new string[0];
             this.dobTBox.Location = new System.Drawing.Point(234, 94);
             this.dobTBox.MaxLength = 32767;
@@ -397,6 +401,7 @@
             this.addressTBox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.addressTBox.CustomButton.UseSelectable = true;
             this.addressTBox.CustomButton.Visible = false;
+            this.addressTBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.employeeBindingSource, "Address", true));
             this.addressTBox.Lines = new string[0];
             this.addressTBox.Location = new System.Drawing.Point(234, 123);
             this.addressTBox.MaxLength = 32767;
