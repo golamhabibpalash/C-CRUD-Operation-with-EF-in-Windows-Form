@@ -88,22 +88,22 @@ namespace CRUD_Application
         
         private void deleteBtn_Click(object sender, EventArgs e)
         {
-            //if (MetroFramework.MetroMessageBox.Show(this, "Are you want to delete this Record?","Message",MessageBoxButtons.YesNo, MessageBoxIcon.Question)==DialogResult.Yes)
-            //{
-            //    using (ModelContext db=new ModelContext())
-            //    {
-            //        Employee obj = employeeBindingSource.Current as Employee;
-            //        if (obj != null)
-            //            if (db.Entry<Employee>(obj).State == EntityState.Detached)
-            //                db.Set<Employee>().Attach(obj);
-            //        db.Entry<Employee>(obj).State = EntityState.Deleted;
-            //        db.SaveChanges();
-            //        MessageBox.Show("Deleted Successfully");
-            //        employeeBindingSource.RemoveCurrent();
-            //        rightPanel.Enabled = false;
-            //        picBox.Image = null;
-            //    }
-            //}
+            if (MetroFramework.MetroMessageBox.Show(this, "Are you want to delete this Record?","Message",MessageBoxButtons.YesNo, MessageBoxIcon.Question)==DialogResult.Yes)
+            {
+                using (ModelContext db=new ModelContext())
+                {
+                    Employee obj = employeeBindingSource.Current as Employee;
+                    if (obj != null)
+                        if (db.Entry<Employee>(obj).State == EntityState.Detached)
+                            db.Set<Employee>().Attach(obj);
+                    db.Entry<Employee>(obj).State = EntityState.Deleted;
+                    db.SaveChanges();
+                    MessageBox.Show("Deleted Successfully");
+                    employeeBindingSource.RemoveCurrent();
+                    rightPanel.Enabled = false;
+                    picBox.Image = null;
+                }
+            }
         }
     }
 }
