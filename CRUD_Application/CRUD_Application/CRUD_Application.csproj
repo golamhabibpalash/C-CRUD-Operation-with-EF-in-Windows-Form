@@ -71,12 +71,20 @@
     <Compile Include="CRUD_Form.Designer.cs">
       <DependentUpon>CRUD_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202007220536143_EmployeeClassAdded.cs" />
+    <Compile Include="Migrations\202007220536143_EmployeeClassAdded.designer.cs">
+      <DependentUpon>202007220536143_EmployeeClassAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelContext.cs" />
     <Compile Include="Model\Employee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CRUD_Form.resx">
       <DependentUpon>CRUD_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007220536143_EmployeeClassAdded.resx">
+      <DependentUpon>202007220536143_EmployeeClassAdded.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
