@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CRUD_Application.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,56 @@ namespace CRUD_Application
         public CRUD_Form()
         {
             InitializeComponent();
+        }
+
+        private void browseBtn_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog ofd=new OpenFileDialog())
+            {
+                if (ofd.ShowDialog()==DialogResult.OK)
+                {
+                    ofd.Filter = "JPEG|*.jpg";
+                    picBox.Image = Image.FromFile(ofd.FileName);
+                    Employee obj = employeeBindingSource.Current as Employee;
+                    if (obj != null)
+                        obj.ImageURL = ofd.FileName;
+                }
+            }
+        }
+
+        private void CRUD_Form_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void addBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void editBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cancelBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void deleteBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void saveBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
