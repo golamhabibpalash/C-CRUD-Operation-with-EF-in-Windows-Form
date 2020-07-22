@@ -35,6 +35,13 @@ namespace CRUD_Application
 
         private void CRUD_Form_Load(object sender, EventArgs e)
         {
+            ModelContext db = new ModelContext();
+            employeeBindingSource.DataSource = db.EmpList.ToList();                
+            
+            rightPanel.Enabled = false;
+            Employee obj = employeeBindingSource.Current as Employee;
+            if (obj != null)
+                picBox.Image = Image.FromFile(obj.ImageURL);
 
         }
 
