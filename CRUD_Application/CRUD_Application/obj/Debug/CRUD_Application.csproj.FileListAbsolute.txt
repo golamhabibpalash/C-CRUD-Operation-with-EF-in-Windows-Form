@@ -1,4 +1,3 @@
-D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\obj\Debug\CRUD_Application.csprojAssemblyReference.cache
 D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\obj\Debug\CRUD_Application.Properties.Resources.resources
 D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\obj\Debug\CRUD_Application.csproj.GenerateResource.cache
 D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\obj\Debug\CRUD_Application.csproj.CoreCompileInputs.cache
@@ -11,3 +10,8 @@ D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\bin\Debug\MetroFramework
 D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\obj\Debug\CRUD_Application.csproj.CopyComplete
 D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\obj\Debug\CRUD_Application.exe
 D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\obj\Debug\CRUD_Application.pdb
+D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\bin\Debug\EntityFramework.dll
+D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\bin\Debug\EntityFramework.SqlServer.dll
+D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\bin\Debug\EntityFramework.xml
+D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\bin\Debug\EntityFramework.SqlServer.xml
+D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\obj\Debug\CRUD_Application.CRUD_Form.resources
