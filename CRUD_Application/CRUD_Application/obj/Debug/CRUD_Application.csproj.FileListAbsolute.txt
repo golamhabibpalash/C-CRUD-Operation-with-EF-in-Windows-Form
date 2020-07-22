@@ -16,3 +16,4 @@ D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\bin\Debug\EntityFramewor
 D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\bin\Debug\EntityFramework.SqlServer.xml
 D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\obj\Debug\CRUD_Application.CRUD_Form.resources
 D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\obj\Debug\CRUD_Application.Migrations.EmployeeClassAdded.resources
+D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\obj\Debug\CRUD_Application.csprojAssemblyReference.cache
