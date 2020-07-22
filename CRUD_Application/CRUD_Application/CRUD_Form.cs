@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CRUD_Application
 {
-    public partial class Form1 : Form
+    public partial class CRUD_Form : MetroFramework.Forms.MetroForm
     {
-        public Form1()
+        public CRUD_Form()
         {
             InitializeComponent();
         }

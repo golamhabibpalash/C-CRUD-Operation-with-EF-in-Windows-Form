@@ -1,0 +1,13 @@
+D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\obj\Debug\CRUD_Application.csprojAssemblyReference.cache
+D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\obj\Debug\CRUD_Application.Properties.Resources.resources
+D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\obj\Debug\CRUD_Application.csproj.GenerateResource.cache
+D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\obj\Debug\CRUD_Application.csproj.CoreCompileInputs.cache
+D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\bin\Debug\CRUD_Application.exe.config
+D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\bin\Debug\CRUD_Application.exe
+D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\bin\Debug\CRUD_Application.pdb
+D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\bin\Debug\MetroFramework.Design.dll
+D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\bin\Debug\MetroFramework.dll
+D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\bin\Debug\MetroFramework.Fonts.dll
+D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\obj\Debug\CRUD_Application.csproj.CopyComplete
+D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\obj\Debug\CRUD_Application.exe
+D:\GHPLS\Project\CRUD\CRUD_Application\CRUD_Application\obj\Debug\CRUD_Application.pdb
