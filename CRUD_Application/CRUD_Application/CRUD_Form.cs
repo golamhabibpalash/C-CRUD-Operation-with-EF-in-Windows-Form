@@ -76,7 +76,24 @@ namespace CRUD_Application
 
         private void saveBtn_Click(object sender, EventArgs e)
         {
+            using (ModelContext db=new ModelContext())
+            {
 
+                Employee obj = employeeBindingSource.Current as Employee;
+                if (obj!=null)
+                {
+                    if (db.Entry<Employee>(obj).State == EntityState.Detached)
+                        db.Set<Employee>().Attach(obj);
+                    if (obj.EmpId == 0)
+                        db.Entry<Employee>(obj).State = EntityState.Added;
+                    else
+                        db.Entry<Employee>(obj).State = EntityState.Modified;
+                    db.SaveChanges();
+                    MetroFramework.MetroMessageBox.Show(this, "Saved Successfully");
+                    dataGridView.Refresh();
+                    rightPanel.Enabled = false;
+                }
+            }
         }
 
         private void dataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
