@@ -81,9 +81,9 @@ namespace CRUD_Application
 
         private void dataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            //Employee obj = employeeBindingSource.Current as Employee;
-            //if (obj != null)
-            //    picBox.Image = Image.FromFile(obj.ImageURL);
+            Employee obj = employeeBindingSource.Current as Employee;
+            if (obj != null)
+                picBox.Image = Image.FromFile(obj.ImageURL);
         } 
         
         private void deleteBtn_Click(object sender, EventArgs e)
