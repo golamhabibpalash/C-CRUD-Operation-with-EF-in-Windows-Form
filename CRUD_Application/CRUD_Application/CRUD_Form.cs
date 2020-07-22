@@ -65,9 +65,10 @@ namespace CRUD_Application
 
         private void cancelBtn_Click(object sender, EventArgs e)
         {
-            //rightPanel.Enabled = false;
-            //employeeBindingSource.ResetBindings(false);
-            //CRUD_Form_Load(sender,e);
+
+            rightPanel.Enabled = false;
+            employeeBindingSource.ResetBindings(false);
+            CRUD_Form_Load(sender,e);
 
         }
 
