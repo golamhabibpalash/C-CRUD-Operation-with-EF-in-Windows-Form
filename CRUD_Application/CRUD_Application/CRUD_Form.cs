@@ -47,7 +47,11 @@ namespace CRUD_Application
 
         private void addBtn_Click(object sender, EventArgs e)
         {
-
+            picBox.Image = null;
+            rightPanel.Enabled = true;
+            employeeBindingSource.Add(new Employee());
+            employeeBindingSource.MoveLast();
+            nameTBox.Focus();
         }
 
         private void editBtn_Click(object sender, EventArgs e)
